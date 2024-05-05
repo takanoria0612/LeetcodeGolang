@@ -1,7 +1,7 @@
-# Golang Leetcode Solutions
+# Golang Leetcode 解答集
 
-This repository contains solutions to various coding problems from LeetCode, implemented in Go. Each solution is structured to be easily understandable and is accompanied by its own README for detailed explanation.
+このリポジトリにはLeetCodeの様々なコーディング問題の解答がGo言語で実装されています。各解答は簡単に理解できるように構造化されており、詳細な説明のための独自のREADMEが付属しています。
 
-## Problems
+## 問題
 
-- [Container With Most Water](./problems/ContainerWithMostWater/README.md): Solutions to the "Container With Most Water" problem.
+- [Container With Most Water](./problems/ContainerWithMostWater/README.md): 「Container With Most Water」問題の解答。
