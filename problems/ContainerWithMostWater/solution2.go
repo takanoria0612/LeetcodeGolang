@@ -1,6 +1,6 @@
 package ContainerWithMostWater
 
-func maxArea2(height []int) int {
+func MaxArea2(height []int) int {
 	retVal := 0
 	for i := 0; i < len(height); i++ {
 		localMax := 0
