@@ -6,7 +6,7 @@ func MaxArea2(height []int) int {
 		localMax := 0
 		for j := len(height) - 1; j >= i; j-- {
 
-			//　ここである基準を設けて、不要な計算を避けてるんだよね。
+			//　ここである基準を設けて、不要な計算を避けてるんだよね。なのでこのmaxContainerPossibleが存在しない値の可能性はある。
 			//　だから別にmaxContainerPossible := (j - i) * height[j]でもいいと思う
 			maxContainerPossible := (j - i) * height[i]
 			if maxContainerPossible < retVal || maxContainerPossible < localMax {
