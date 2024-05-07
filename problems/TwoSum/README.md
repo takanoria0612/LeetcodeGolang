@@ -1,3 +1,58 @@
+## 目次
+- [問題文](#問題文)
+- [Two-Sum 問題解決法の説明](#Two-Sum-問題解決法の説明)
+  - [方法1: ネストされたループを使用するアプローチ](#方法1-ネストされたループを使用するアプローチ)
+  - [方法2: ハッシュマップを使用するアプローチ](#方法2-ハッシュマップを使用するアプローチ)
+- [Hashmapと配列によるデータ探索の違いについて](#Hashmapと配列によるデータ探索の違いについて)
+  - [配列を使用したデータ探索](#配列を使用したデータ探索)
+  - [Hashmapを使用したデータ探索](#Hashmapを使用したデータ探索)
+- [それじゃあ配列が推奨される場合は？](#それじゃあ配列が推奨される場合は？)
+
+## 問題文
+
+整数の配列 `nums` と整数 `target` が与えられたとき、その和が `target` になるような2つの数値のインデックスを返します。
+
+各入力には正確に一つの解が存在すると仮定してよく、同じ要素を二回使用することはできません。
+
+答えはどのような順序で返しても構いません。
+
+例 1:
+
+入力: nums = [2,7,11,15], target = 9
+出力: [0,1]
+説明: `nums[0]` + `nums[1]` == 9 となるため、[0, 1]を返します。
+例 2:
+
+入力: nums = [3,2,4], target = 6
+出力: [1,2]
+例 3:
+
+入力: nums = [3,3], target = 6
+出力: [0,1]
+
+
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+You can return the answer in any order.
+
+ 
+
+Example 1:
+
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+Example 2:
+
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+Example 3:
+
+Input: nums = [3,3], target = 6
+Output: [0,1]
+
 ## Two-Sum 問題解決法の説明
 
 この文書では、プログラミングで一般的な「Two-Sum問題」を解く二つのアプローチについて説明します。また、後者のハッシュマップを使用した方法がなぜ初めの方法よりも優れているかを解説します。
