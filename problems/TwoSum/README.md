@@ -1,6 +1,6 @@
 ## 目次
 - [問題文](#問題文)
-- [Two-Sum 問題解決法の説明](#Two-Sum-問題解決法の説明)
+- [Two-Sum 解法の説明](#Two-Sum-解法の説明)
   - [方法1: ネストされたループを使用するアプローチ](#方法1-ネストされたループを使用するアプローチ)
   - [方法2: ハッシュマップを使用するアプローチ](#方法2-ハッシュマップを使用するアプローチ)
 - [Hashmapと配列によるデータ探索の違いについて](#Hashmapと配列によるデータ探索の違いについて)
@@ -18,17 +18,18 @@
 
 例 1:
 
-入力: nums = [2,7,11,15], target = 9
-出力: [0,1]
-説明: `nums[0]` + `nums[1]` == 9 となるため、[0, 1]を返します。
+入力: `nums = [2,7,11,15], target = 9`
+出力: `[0,1]`
+説明: `nums[0] + nums[1] == 9` となるため、`[0, 1]`を返します。
 例 2:
 
-入力: nums = [3,2,4], target = 6
-出力: [1,2]
+入力: `nums = [3,2,4], target = 6`
+出力: `[1,2]`
+
 例 3:
 
-入力: nums = [3,3], target = 6
-出力: [0,1]
+入力: `nums = [3,3], target = 6`
+出力: `[0,1]`
 
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
@@ -41,17 +42,17 @@ You can return the answer in any order.
 
 Example 1:
 
-Input: nums = [2,7,11,15], target = 9
+Input: nums = `[2,7,11,15]`, target = `9`
 Output: [0,1]
-Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+Explanation: Because `nums[0] + nums[1] == 9`, we return `[0, 1]`.
 Example 2:
 
-Input: nums = [3,2,4], target = 6
-Output: [1,2]
+Input: `nums = [3,2,4], target = 6`
+Output: `[1,2]`
 Example 3:
 
-Input: nums = [3,3], target = 6
-Output: [0,1]
+Input: `nums = [3,3], target = 6`
+Output: `[0,1]`
 
 ## Two-Sum 問題解決法の説明
 
