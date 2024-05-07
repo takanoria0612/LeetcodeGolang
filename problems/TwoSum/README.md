@@ -9,7 +9,7 @@
 - [それじゃあ配列が推奨される場合は？](#それじゃあ配列が推奨される場合は？)
 
 ## 問題文
-
+##### 日本語
 整数の配列 `nums` と整数 `target` が与えられたとき、その和が `target` になるような2つの数値のインデックスを返します。
 
 各入力には正確に一つの解が存在すると仮定してよく、同じ要素を二回使用することはできません。
@@ -31,7 +31,7 @@
 入力: `nums = [3,3], target = 6`
 出力: `[0,1]`
 
-
+##### 英語
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
