@@ -2,6 +2,7 @@ package main
 
 import (
 	"GolangLeetcode/problems/ContainerWithMostWater"
+	"GolangLeetcode/problems/GroupAnagrams"
 	"GolangLeetcode/problems/TwoSum"
 
 	"fmt"
@@ -20,4 +21,15 @@ func main() {
 	target := 9
 	fmt.Println("The indecies using solution1:", TwoSum.TwoSum(nums, target))  // 出力: [0, 1]
 	fmt.Println("The indecies using solution2:", TwoSum.TwoSum2(nums, target)) // 出力: [0, 1]
+
+	// Group Anagrams
+	strs := []string{"eat", "tea", "tan", "ate", "nat", "bat"}
+	result_G1 := GroupAnagrams.GroupAnagrams(strs)
+	fmt.Println("Group Anagrams using solution1:", result_G1) // Output: [[eat tea ate] [bat] [tan nat]]
+
+	result_G2 := GroupAnagrams.GroupAnagrams2(strs)
+	fmt.Println("Group Anagrams using solution2:", result_G2) // Output: [[eat tea ate] [bat] [tan nat]]
+
+	result_G3 := GroupAnagrams.GroupAnagrams3(strs)
+	fmt.Println("Group Anagrams using solution3:", result_G3) // Output: [[eat tea ate] [bat] [tan nat]]
 }
